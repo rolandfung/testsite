@@ -1,0 +1,33 @@
+.mainNav {
+  position: fixed;
+  top:0;
+  transition: all .5s ease;
+  list-style-type: none;
+
+  display:flex;
+  flex-flow:row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hidden {
+  transform: translate3d(0,-100%,0);
+}
+
+li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width:100%;
+  color:black;
+  text-decoration: none;
+}
+
+p {
+  margin-top:50px;
+  height:2000px;
+}
+

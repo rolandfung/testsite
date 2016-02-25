@@ -39,6 +39,9 @@ module.exports = {
     }, {
       test: /\.css$/,
       loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]'
+    },{
+      test: /\.woff$/,
+      loader: 'url?limit=100000'
     }]
   }
 };
